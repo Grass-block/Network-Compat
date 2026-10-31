@@ -1,0 +1,13 @@
+{
+  "itemGroup.networkcompat": "Example Mod Tab",
+  "block.networkcompat.example_block": "Example Block",
+  "item.networkcompat.example_item": "Example Item",
+
+  "networkcompat.configuration.title": "NetworkCompat Configs",
+  "networkcompat.configuration.section.networkcompat.client.toml": "NetworkCompat Configs",
+  "networkcompat.configuration.section.networkcompat.client.toml.title": "NetworkCompat Configs",
+  "networkcompat.configuration.items": "Item List",
+  "networkcompat.configuration.logDirtBlock": "Log Dirt Block",
+  "networkcompat.configuration.magicNumberIntroduction": "Magic Number Text",
+  "networkcompat.configuration.magicNumber": "Magic Number"
+}

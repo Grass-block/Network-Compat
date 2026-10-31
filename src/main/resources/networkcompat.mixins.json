@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "package": "org.atcgroup.netcompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "client.MixinCheckExtensibleEnums",
+    "client.MixinClientConfigurationPacketListener",
+    "client.MixinClientIntentionPacket",
+    "client.MixinClientRegistryManager",
+    "client.MixinItemDisplayParameters"
+  ],
+  "server": [
+    "server.MixinNetworkComponentNegotiator"
+  ],
+  "mixins": [
+    "MixinFriendlyByteBuf",
+    "MixinNetworkRegistry",
+    "MixinPacketDecoder",
+    "MixinPacketEncoder",
+    "MixinRecipeBookSettings",
+    "MixinRegistry"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
