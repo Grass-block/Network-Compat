@@ -144,4 +144,8 @@ public final class NCClient {
             }
         }
     }
+
+    public static boolean allowModNetworkMixins(){
+        return !STATE.isVanillaConnection();
+    }
 }
